@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Your PC | Storage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">Build Your PC</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="cpu.html">CPU</a>
+      <a href="ram.html">RAM</a>
+      <a href="storage.html" class="active">Storage</a>
+      <a href="gpu.html">GPU</a>
+      <a href="build.html">Final Build</a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="container page-header">
+  <h1>Choose Your Storage</h1>
+  <p>
+    Storage keeps your operating system, applications, documents, and media saved even
+    when the computer is turned off.
+  </p>
+</section>
+
+
+<section class="container">
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h3>500 GB SSD</h3>
+      <p>Fast startup times and enough space for everyday use.</p>
+
+      <ul>
+        <li>Fast performance</li>
+        <li>Good for school or office work</li>
+      </ul>
+
+      <button class="btn"
+      onclick="selectPart('storage','500GB SSD')">
+      Select
+      </button>
+
+    </div>
+
+
+    <div class="card">
+      <h3>1 TB SSD</h3>
+      <p>A strong option for users who want speed and more room for files and software.</p>
+
+      <ul>
+        <li>Fast load times</li>
+        <li>Better for games and larger apps</li>
+      </ul>
+
+      <button class="btn"
+      onclick="selectPart('storage','1TB SSD')">
+      Select
+      </button>
+
+    </div>
+
+
+    <div class="card">
+      <h3>2 TB HDD</h3>
+      <p>Provides more space but slower performance than an SSD.</p>
+
+      <ul>
+        <li>Larger capacity</li>
+        <li>Better for mass storage</li>
+      </ul>
+
+      <button class="btn"
+      onclick="selectPart('storage','2TB HDD')">
+      Select
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="container">
+
+  <h2 class="section-title">SSD vs HDD</h2>
+
+  <p class="section-text">
+    SSDs are faster and more common in modern computers. HDDs are still useful when users
+    need a lot of storage at a lower cost. Many systems combine both to balance speed and space.
+  </p>
+
+  <a href="gpu.html" class="btn">Next: Choose GPU</a>
+
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    Build Your PC Project | HTML and CSS Multi Page Website
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

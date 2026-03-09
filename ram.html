@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Your PC | RAM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">Build Your PC</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="cpu.html">CPU</a>
+      <a href="ram.html" class="active">RAM</a>
+      <a href="storage.html">Storage</a>
+      <a href="gpu.html">GPU</a>
+      <a href="build.html">Final Build</a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="container page-header">
+  <h1>Select Your RAM</h1>
+  <p>
+    RAM is temporary memory. It helps the computer keep programs open and accessible
+    while you are actively using them.
+  </p>
+</section>
+
+
+<section class="container">
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h3>8 GB RAM</h3>
+      <p>Good for basic tasks like web browsing, email, and word processing.</p>
+
+      <button class="btn"
+      onclick="selectPart('ram','8GB')">
+      Select
+      </button>
+
+    </div>
+
+
+    <div class="card">
+      <h3>16 GB RAM</h3>
+      <p>Recommended for most users because it supports stronger multitasking.</p>
+
+      <button class="btn"
+      onclick="selectPart('ram','16GB')">
+      Select
+      </button>
+
+    </div>
+
+
+    <div class="card">
+      <h3>32 GB RAM</h3>
+      <p>Better for gaming, development environments, video editing, and heavier workloads.</p>
+
+      <button class="btn"
+      onclick="selectPart('ram','32GB')">
+      Select
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="container">
+
+  <h2 class="section-title">Why RAM matters</h2>
+
+  <p class="section-text">
+    If a computer does not have enough RAM, programs may run slowly or the system may
+    struggle to handle multiple tasks. More RAM gives the computer more space to manage
+    active work.
+  </p>
+
+  <a href="storage.html" class="btn">Next: Choose Storage</a>
+
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    Build Your PC Project | HTML and CSS Multi Page Website
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Your PC | GPU</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">Build Your PC</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="cpu.html">CPU</a>
+      <a href="ram.html">RAM</a>
+      <a href="storage.html">Storage</a>
+      <a href="gpu.html" class="active">GPU</a>
+      <a href="build.html">Final Build</a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="container page-header">
+  <h1>Select Your GPU</h1>
+  <p>
+    The GPU processes graphics and visual content. It is especially important for gaming,
+    3D work, design, and video editing.
+  </p>
+</section>
+
+
+<section class="container">
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h3>NVIDIA RTX 4060</h3>
+      <p>A good choice for modern gaming and visual tasks at a mid range level.</p>
+
+      <button class="btn"
+      onclick="selectPart('gpu','RTX 4060')">
+      Select
+      </button>
+
+    </div>
+
+
+    <div class="card">
+      <h3>NVIDIA RTX 4070</h3>
+      <p>Stronger performance for higher graphics settings and demanding applications.</p>
+
+      <button class="btn"
+      onclick="selectPart('gpu','RTX 4070')">
+      Select
+      </button>
+
+    </div>
+
+
+    <div class="card">
+      <h3>AMD Radeon RX 7600</h3>
+      <p>A solid alternative for gaming and users looking for a different value option.</p>
+
+      <button class="btn"
+      onclick="selectPart('gpu','RX 7600')">
+      Select
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="container">
+
+  <h2 class="section-title">Do all users need a GPU?</h2>
+
+  <p class="section-text">
+    Not always. Many users can rely on integrated graphics for browsing, streaming, and
+    office tasks. A dedicated GPU becomes more important for gaming, design, rendering,
+    and video production.
+  </p>
+
+  <a href="build.html" class="btn">Next: View Final Build</a>
+
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    Build Your PC Project | HTML and CSS Multi Page Website
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
